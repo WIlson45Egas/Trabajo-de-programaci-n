@@ -1,0 +1,18 @@
+#include <studio.h>
+
+int a = 0;
+int b = 1;
+int suma = 0;
+
+while a <= 100:
+    # Si el término actual es menor o igual a 100, se suma a la suma acumulada
+    if a <= 100:
+        suma += a
+    
+    c = a + b
+    
+    a = b
+    b = c
+
+# Mostrar el resultado de la suma
+print("La suma de los elementos de la serie de Fibonacci entre 0 y 100 es:", suma)
